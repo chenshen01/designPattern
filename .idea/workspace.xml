@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e57dc64-f04e-4ab4-8f9f-599644f08700" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/src/builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/builder/CommHouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/builder/HighHouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/builder/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/builder/HouseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/prototype/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/src/prototype/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/adaptor/Cilent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/adaptor/IVoltage5V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/adaptor/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/adaptor/Voltage220V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/adaptor/VoltageAdaptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/brige/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/brige/Cilent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/brige/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/brige/Dell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/brige/DellComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/brige/Mac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/src/brige/MacComputer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +46,136 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/adaptor/Voltage220V.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/adaptor/Phone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/adaptor/VoltageAdaptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/brige/Brand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/brige/Dell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="29" selection-start-line="11" selection-end-line="12" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/brige/Mac.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/brige/Computer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/brige/DellComputer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/brige/MacComputer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/src/brige/Cilent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/adaptor/Cilent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/src/adaptor/IVoltage5V.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -87,6 +215,19 @@
         <option value="$PROJECT_DIR$/code/src/builder/CommHouseBuilder.java" />
         <option value="$PROJECT_DIR$/code/src/builder/Director.java" />
         <option value="$PROJECT_DIR$/code/src/builder/Client.java" />
+        <option value="$PROJECT_DIR$/code/src/adaptor/IVoltage5V.java" />
+        <option value="$PROJECT_DIR$/code/src/adaptor/Voltage220V.java" />
+        <option value="$PROJECT_DIR$/code/src/adaptor/phone.java" />
+        <option value="$PROJECT_DIR$/code/src/adaptor/Phone.java" />
+        <option value="$PROJECT_DIR$/code/src/adaptor/Cilent.java" />
+        <option value="$PROJECT_DIR$/code/src/adaptor/VoltageAdaptor.java" />
+        <option value="$PROJECT_DIR$/code/src/brige/Brand.java" />
+        <option value="$PROJECT_DIR$/code/src/brige/Dell.java" />
+        <option value="$PROJECT_DIR$/code/src/brige/Mac.java" />
+        <option value="$PROJECT_DIR$/code/src/brige/Computer.java" />
+        <option value="$PROJECT_DIR$/code/src/brige/DellComputer.java" />
+        <option value="$PROJECT_DIR$/code/src/brige/MacComputer.java" />
+        <option value="$PROJECT_DIR$/code/src/brige/Cilent.java" />
       </list>
     </option>
   </component>
@@ -106,7 +247,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="507" />
     <option name="y" value="122" />
     <option name="width" value="928" />
@@ -136,6 +277,13 @@
               <item name="designPattern" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="brige" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,7 +321,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Cilent (1)">
+    <configuration name="Cilent (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="brige.Cilent" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="brige.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cilent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adaptor.Cilent" />
+      <module name="designPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adaptor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="builder.Client" />
       <module name="designPattern" />
@@ -193,26 +367,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="designPattern" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Order" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factory.simplefactory.Order" />
-      <module name="designPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factory.simplefactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,11 +452,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cilent (1)" />
+        <item itemvalue="Application.Cilent" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Order" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -318,15 +472,16 @@
       <updated>1594603265515</updated>
       <workItem from="1594603267197" duration="1689000" />
       <workItem from="1594732783044" duration="363000" />
-      <workItem from="1595602546498" duration="8808000" />
+      <workItem from="1595602546498" duration="14097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10860000" />
+    <option name="totallyTimeSpent" value="16149000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2624811" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
@@ -340,8 +495,8 @@
       <window_info anchor="bottom" id="Problems" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.08361775" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3020478" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3532423" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20136519" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -375,8 +530,8 @@
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.3020478" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.3532423" />
+      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.20136519" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
@@ -480,13 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/factory/factorymethod/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/src/factory/factorymethod/Shop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -541,38 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/factory/factorymethod/BJ01Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/factory/factorymethod/JXPizzaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/factory/factorymethod/BJPizzaFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/factory/factorymethod/OrderPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/src/factory/factorymethod/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -615,28 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/builder/House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/builder.HouseBuilder">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -674,10 +768,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/builder/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/builder/CommHouseBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/builder/HighHouseBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/src/builder/HouseBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
+        <state relative-caret-position="154">
           <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/builder/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/factory/factorymethod/OrderPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/factory/factorymethod/JXPizzaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/factory/factorymethod/BJPizzaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/factory/factorymethod/BJ01Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/factory/factorymethod/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -687,31 +855,109 @@
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding>
             <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
             <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/builder/CommHouseBuilder.java">
+    <entry file="file://$PROJECT_DIR$/code/src/adaptor/IVoltage5V.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="50" />
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/builder/Client.java">
+    <entry file="file://$PROJECT_DIR$/code/src/adaptor/Phone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="154">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/src/builder/HighHouseBuilder.java">
+    <entry file="file://$PROJECT_DIR$/code/src/adaptor/Cilent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="32" />
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/adaptor/Voltage220V.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/adaptor/VoltageAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/brige/Dell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="29" selection-start-line="11" selection-end-line="12" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/brige/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/brige/DellComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/brige/Mac.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/brige/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/brige/MacComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/src/brige/Cilent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
