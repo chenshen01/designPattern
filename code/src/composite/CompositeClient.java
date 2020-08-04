@@ -57,7 +57,7 @@ public class CompositeClient {
         c3.addChild(leaf8);
 
         // 调用根对象的输出功能输出整棵树
-        root.someOperation("服装");
+        root.someOperation("");
 
     }
 }
