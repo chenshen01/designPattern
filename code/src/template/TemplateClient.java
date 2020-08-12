@@ -22,6 +22,7 @@ package template;
  * 缺点很简单，我们发现虽然我们把一些类的共同操作封装了起来，但是当这些类比较多时，
  * 效果就不好了，因为有一个拓展子类都需要继承它，子类多了就不好了。
  *
+ * @see https://baijiahao.baidu.com/s?id=1639309117007251878&wfr=spider&for=pc
  * @author liuzhixiang 2020/08/10 16:15
  */
 public class TemplateClient {
