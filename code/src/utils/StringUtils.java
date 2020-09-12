@@ -8,14 +8,14 @@ package utils;
 public class StringUtils {
 
     private StringUtils(){
-        
+
     }
 
     public static boolean isNull(String string){
         if (string == null || "".equals(string.trim())) {
             return true;
         }
-        System.out.println();
+        System.out.println("111");
         return false;
     }
 
