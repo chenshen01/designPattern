@@ -23,5 +23,6 @@ public class StringUtils {
         return !isNull(string);
     }
 
-    // haha 
+    // haha
+    // git
 }
