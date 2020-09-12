@@ -22,4 +22,6 @@ public class StringUtils {
     public static boolean isNotNull(String string){
         return !isNull(string);
     }
+
+    // haha 
 }
